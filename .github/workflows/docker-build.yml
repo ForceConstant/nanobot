@@ -1,7 +1,7 @@
 name: 🐳 Build & Push Docker Image
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       tag:
         description: "Release tag"
